@@ -1,13 +1,22 @@
-# React + Vite
+# React + Appwrite Starter Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application boilerplate using React for the frontend and Appwrite for backend services like authentication, database, and file storage. Perfect for developers looking to quickly build and deploy modern web apps with a secure, scalable backend.
 
-Currently, two official plugins are available:
+# 🔧 Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React (Vite or CRA)
+Backend: Appwrite (Self-hosted or Cloud)
+Authentication: Appwrite Auth (Email/Password, OAuth)
+Database: Appwrite Database (Document-based)
+Storage: Appwrite Bucket for file uploads
+State Management: React Context or Redux (optional)
+Routing: React Router
 
-## Expanding the ESLint configuration
+# ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# MegaBlog" 
+✅ User authentication (login, signup, logout)
+✅ Protected routes based on user session
+✅ Create, read, update, and delete (CRUD) operations with Appwrite database
+✅ File uploads using Appwrite Storage
+✅ Responsive UI with basic styling (Tailwind, Material UI, or CSS modules)
+✅ Easily extensible and production-ready
